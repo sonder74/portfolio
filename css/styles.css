@@ -4447,6 +4447,7 @@ input[type=button].btn-block {
 .card-deck .card {
   margin-bottom: 1.5rem;
 }
+/* 
 @media (min-width: 576px) {
   .card-deck {
     display: flex;
@@ -4521,7 +4522,7 @@ input[type=button].btn-block {
     display: inline-block;
     width: 100%;
   }
-}
+} */
 
 .accordion {
   overflow-anchor: none;
