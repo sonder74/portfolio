@@ -10169,11 +10169,14 @@ h3 {
   opacity: 0;
   background-color: #1abc9c;
 }
-.portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
-}
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-  font-size: 1.5rem;
+
+@media (min-width: 992px) {
+  .portfolio .portfolio-item .portfolio-item-caption:hover {
+    opacity: 1;
+  }
+  .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+    font-size: 1.5rem;
+  }
 }
 
 .portfolio-modal .portfolio-modal-title {
