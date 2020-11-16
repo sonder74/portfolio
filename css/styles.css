@@ -10170,7 +10170,16 @@ h3 {
   background-color: #1abc9c;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 768px) {
+  .portfolio .portfolio-item .portfolio-item-caption:hover {
+    opacity: 1;
+  }
+  .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+    font-size: 1.5rem;
+  }
+} */
+
+@media(hover: hover) and (pointer: fine) {
   .portfolio .portfolio-item .portfolio-item-caption:hover {
     opacity: 1;
   }
