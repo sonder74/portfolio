@@ -10183,7 +10183,7 @@ h3 {
   }
 }
 .masthead {
-  /* padding-top: calc(6rem + 74px); */
+  padding-top: calc(6rem + 25px);
   padding-bottom: 6rem;
 }
 /* .masthead .masthead-heading {
