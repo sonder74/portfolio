@@ -10228,7 +10228,7 @@ h3 {
 /* .masthead .masthead-avatar {
   width: 15rem;
 } */
-.masthead .masthead-avatar {
+.masthead-avatar {
   width: 18rem;
 }
 
@@ -10237,11 +10237,14 @@ h3 {
     padding-top: calc(3rem + 74px);
     padding-bottom: 6rem;
   }
+  .masthead-avatar {
+    width: 13rem;
+  }
   .masthead-subheading {
     display: none;
   }
   .masthead-subheading-mobile {
-    font-size: 1.25rem;
+    font-size: 1rem;
     display: inline-block;
   }
 }
