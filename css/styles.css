@@ -4540,6 +4540,10 @@ input[type=button].btn-block {
   margin-bottom: -0.125rem;
 }
 
+.card-header-mobile {
+  display: none;
+}
+
 .breadcrumb {
   display: flex;
   flex-wrap: wrap;
@@ -5460,7 +5464,8 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: whitesmoke;
   background-clip: padding-box;
   border: 0 solid rgba(0, 0, 0, 0.2);
   border-radius: 0.75rem;
@@ -10251,11 +10256,18 @@ h3 {
   /* .masthead-divider-mobile {
     display: none;
   } */
+  .card-header-desktop {
+    display: none;
+  }
+  .card-header-mobile {
+    font-size: smaller;
+    display: inline-block;
+  }
 }
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
+    padding-top: calc(2.5rem + 104px);
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
