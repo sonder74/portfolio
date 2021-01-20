@@ -10244,9 +10244,13 @@ h3 {
     display: none;
   }
   .masthead-subheading-mobile {
-    font-size: 1rem;
+    font-size: 1.1rem;
     display: inline-block;
+    /* padding-top: 1rem; */
   }
+  /* .masthead-divider-mobile {
+    display: none;
+  } */
 }
 
 @media (min-width: 992px) {
