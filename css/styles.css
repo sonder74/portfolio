@@ -4540,10 +4540,6 @@ input[type=button].btn-block {
   margin-bottom: -0.125rem;
 }
 
-.card-header-mobile {
-  display: none;
-}
-
 .breadcrumb {
   display: flex;
   flex-wrap: wrap;
@@ -10256,13 +10252,6 @@ h3 {
   /* .masthead-divider-mobile {
     display: none;
   } */
-  .card-header-desktop {
-    display: none;
-  }
-  .card-header-mobile {
-    font-size: smaller;
-    display: inline-block;
-  }
 }
 
 @media (min-width: 992px) {
