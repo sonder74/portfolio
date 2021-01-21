@@ -10232,6 +10232,9 @@ h3 {
 .masthead-avatar {
   width: 18rem;
 }
+.masthead-avatar-mobile {
+  display: none;
+}
 
 @media (max-width: 575.98px) {
   .masthead {
@@ -10239,7 +10242,7 @@ h3 {
     padding-bottom: 6rem;
   }
   .masthead-avatar {
-    width: 15rem;
+    display: none;
   }
   .masthead-subheading {
     display: none;
@@ -10249,9 +10252,10 @@ h3 {
     display: inline-block;
     /* padding-top: 1rem; */
   }
-  /* .masthead-divider-mobile {
-    display: none;
-  } */
+  .masthead-avatar-mobile {
+    width: 13rem;
+    display: inline;
+  }
 }
 
 @media (min-width: 992px) {
@@ -10265,6 +10269,9 @@ h3 {
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
+  }
+  .masthead-avatar-mobile {
+    display: none;
   }
 }
 .portfolio .portfolio-item {
