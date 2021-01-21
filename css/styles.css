@@ -10211,6 +10211,8 @@ h3 {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
+  .masthead-avatar-mobile {
+    display: none;
 }
 .masthead {
   padding-top: calc(6rem + 74px);
