@@ -10236,7 +10236,7 @@ h3 {
   }
 }
 .masthead {
-  padding-top: calc(6rem + 74px);
+  padding-top: calc(2rem + 74px);
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
@@ -10247,6 +10247,9 @@ h3 {
   font-size: 1.25rem;
 }
 .masthead-subheading-mobile {
+  display: none;
+}
+.masthead-heading-mobile {
   display: none;
 }
 .caret-mobile {
@@ -10273,12 +10276,18 @@ h3 {
     display: inline-block;
     /* padding-top: 1rem; */
   }
+  .masthead-heading {
+    display: none;
+  }
+  .masthead-heading-mobile {
+    display: inline-block;
+  }
   .caret-mobile {
     display: inline-block;
   }
-  .masthead-avatar {
+  /* .masthead-avatar {
     width: 15rem;
-  }
+  } */
 }
 
 @media (min-width: 992px) {
