@@ -4393,7 +4393,7 @@ input[type=button].btn-block {
 }
 
 .card-header:hover {
-  background-color: #1a2b45;
+  background-color: #131922;
 }
 
 .card-header:first-child {
@@ -6118,11 +6118,11 @@ button.bg-secondary:focus {
 }
 
 .bg-tertiary {
-  background-color: #19202b !important;
+  background-color: #131922 !important;
 }
 
 .text-tertiary {
-  color: #19202b !important;
+  color: #131922 !important;
 }
 
 .bg-accent {
@@ -10264,9 +10264,12 @@ h3 {
 
 
 @media (max-width: 575.98px) {
+  .page-section {
+    padding: 4rem 0;
+  }
   .masthead {
     padding-top: calc(2rem + 74px);
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
   }
   .masthead-subheading {
     display: none;
@@ -10285,9 +10288,9 @@ h3 {
   .caret-mobile {
     display: inline-block;
   }
-  /* .masthead-avatar {
+  .masthead-avatar {
     width: 15rem;
-  } */
+  }
 }
 
 @media (min-width: 992px) {
