@@ -12,7 +12,10 @@
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" /> -->
-        <link href="https://fonts.googleapis.com/css?family=Futura:400,700" rel="stylesheet" type="text/css" />
+        <!-- <link href="https://fonts.googleapis.com/css?family=Futura:400,700" rel="stylesheet" type="text/css" /> -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
@@ -21,7 +24,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-tertiary text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Eric's Portfolio</a>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top" style="letter-spacing: .125em;">Eric's Portfolio</a>
                 <button class="navbar-toggler navbar-toggler-right text-primary text-uppercase font-weight-bold rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -40,31 +43,24 @@
         <header class="masthead bg-secondary text-primary text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/yellow_radial_inner_shadow.png" alt="" />
-                <img class="masthead-avatar-mobile mb-3" src="assets/img/yellow_radial_inner_shadow.png" alt="" />
+                <img class="masthead-avatar mb-4" src="assets/img/sunset_circle.png" alt="" />
                 <!-- Masthead Heading-->
-                <h2 class="masthead-heading text-uppercase mb-0">Eric Wetzel</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-lightbulb"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
+                <h1 class="masthead-heading text-accent text-uppercase mb-2" style="font-size: 70px;">Eric Wetzel</h1>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Data Analysis • Digital Marketing • Strategic Communications</p>
-                <p class="masthead-subheading-mobile font-weight-light mb-0">Data Analysis • Digital Marketing<br>Strategic Communications</p>
-                <!-- <div class="divider-custom-icon" style="font-size: x-large">
-                    <a class="js-scroll-trigger" href="#about"><i class="far fa-caret-square-down"></i></a>
+                <h5 class="masthead-subheading font-weight-light mt-2">DATA ANALYSIS • STRATEGIC COMMUNICATIONS</h5>
+                <h5 class="masthead-subheading-mobile font-weight-light mt-2">DATA ANALYSIS<br>STRATEGIC COMMUNICATIONS</h5>
+                <div class="divider-custom-icon-red caret-mobile">
+                    <a class="js-scroll-trigger" href="#about"><span style="font-size: 30px; color: #c8c8c8;"><i class="fas fa-arrow-down"></i></span></a>
                 </div>
-            </div> -->
+            </div>
         </header>
         <!-- About Section-->
         <section class="page-section bg-primary text-secondary" id="about">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase mb-0">About Me</h2>
+                <h2 class="page-section-heading text-center text-secondary text-uppercase mb-0">About Me</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom">
+                <div class="divider-custom mt-1">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-users"></i></div>
                     <div class="divider-custom-line"></div>
@@ -72,7 +68,7 @@
                 <!-- About Section Content-->
                 <div class="col-md-auto col-lg-auto mb-5">
                     <!-- <p class="lead text-center text-primary">I am a data analyst with a background in marketing, communications, and project management. I love solving complex problems, collaborating with multidisciplinary teams, and condensing complicated information into easy-to-understand narratives for audiences of all types. I currently work as an independent consultant for private companies, nonprofit organizations, and legal teams.</p> -->
-                    <p class="lead text-center text-secondary">I am a data analyst with a background in marketing, communications, and project management. I love solving complex problems, collaborating with multidisciplinary teams, and condensing complicated information into easy-to-understand narratives for audiences of all types.</p>
+                    <p class="lead text-center text-secondary" style="font-weight: 400;">I am a data analyst with a background in marketing, communications, and project management. I love solving complex problems, collaborating with multidisciplinary teams, and condensing complicated information into easy-to-understand narratives for audiences of all types.</p>
                 </div>
                 <!-- About Social Icons-->
                 <div class="text-center mt-4">
@@ -95,7 +91,7 @@
             <!-- Portfolio Section Heading-->
             <h2 class="page-section-heading text-center text-primary text-uppercase mb-0">Recent Projects</h2>
             <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
+            <div class="divider-custom divider-light mt-1">
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-icon"><i class="fas fa-code-branch"></i></div>
                 <div class="divider-custom-line"></div>
@@ -106,70 +102,70 @@
                 <div class="col-md-auto col-lg-auto mb-5">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="masthead-subheading text-center font-weight-bold text-secondary" style="font-size: 18px;">View Project</div>
+                            <div class="masthead-subheading text-center font-weight-bold text-secondary" style="font-size: 16px;">View Project</div>
                         </div>
                         <img class="img-fluid p-3 bg-primary portfolio-img rounded" src="assets/img/portfolio/biden_choice.png" alt="" />
                     </div>
-                    <div class="portfolio-item-caption-content text-center text-white"><br><h3>Machine Learning</h3></div>
+                    <div class="portfolio-item-caption-content text-center text-white text-uppercase font-weight-light"><br><h5>Machine Learning</h5></div>
                 </div>
                 <!-- Portfolio Item 2-->
                 <div class="col-md-auto col-lg-auto mb-5">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="masthead-subheading text-center font-weight-bold text-secondary" style="font-size: 18px;">View Project</div>
+                            <div class="masthead-subheading text-center font-weight-bold text-secondary" style="font-size: 16px;">View Project</div>
                         </div>
                         <img class="img-fluid p-3 bg-white portfolio-img rounded" src="assets/img/portfolio/tableau_final_3.gif" alt="" />
                     </div>
-                    <div class="portfolio-item-caption-content text-center text-white"><br><h3>Tableau</h3></div>
+                    <div class="portfolio-item-caption-content text-center text-white text-uppercase font-weight-light"><br><h5>Tableau</h5></div>
                 </div>
                 <!-- Portfolio Item 3-->
                 <div class="col-md-auto col-lg-auto mb-5">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="masthead-subheading text-center font-weight-bold text-secondary" style="font-size: 18px;">View Project</div>
+                            <div class="masthead-subheading text-center font-weight-bold text-secondary" style="font-size: 16px;">View Project</div>
                         </div>
                         <img class="img-fluid p-3 bg-white portfolio-img rounded" src="assets/img/portfolio/sql-final.gif" alt="" />
                     </div>
-                    <div class="portfolio-item-caption-content text-center text-white"><br><h3>SQL</h3></div>
+                    <div class="portfolio-item-caption-content text-center text-white text-uppercase font-weight-light"><br><h5>SQL</h5></div>
                 </div>
                 <!-- Portfolio Item 4-->
                 <div class="col-md-auto col-lg-auto mb-5">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="masthead-subheading text-center font-weight-bold text-secondary" style="font-size: 18px;">View Project</div>
+                            <div class="masthead-subheading text-center font-weight-bold text-secondary" style="font-size: 16px;">View Project</div>
                         </div>
                         <img class="img-fluid p-3 bg-white portfolio-img rounded" src="assets/img/portfolio/scrape.png" alt="" />
                     </div>
-                    <div class="portfolio-item-caption-content text-center text-white"><br><h3>Web Scraping</h3></div>
+                    <div class="portfolio-item-caption-content text-center text-white text-uppercase font-weight-light"><br><h5>Web Scraping</h5></div>
                 </div>
                 <!-- Portfolio Item 5-->
                 <div class="col-md-auto col-lg-auto mb-5">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="masthead-subheading text-center font-weight-bold text-secondary" style="font-size: 18px;">View Project</div>
+                            <div class="masthead-subheading text-center font-weight-bold text-secondary" style="font-size: 16px;">View Project</div>
                         </div>
                         <img class="img-fluid p-3 bg-white portfolio-img rounded" src="assets/img/portfolio/d3-final.gif" alt="" />
                     </div>
-                    <div class="portfolio-item-caption-content text-center text-white"><br><h3>D3.js</h3></div>
+                    <div class="portfolio-item-caption-content text-center text-white text-uppercase font-weight-light"><br><h5>D3.js</h5></div>
                 </div>
                 <!-- Portfolio Item 6-->
                 <div class="col-md-auto col-lg-auto mb-5">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="masthead-subheading text-center font-weight-bold text-secondary" style="font-size: 18px;">View Project</div>
+                            <div class="masthead-subheading text-center font-weight-bold text-secondary" style="font-size: 16px;">View Project</div>
                         </div>
                         <img class="img-fluid p-3 bg-white portfolio-img rounded" src="assets/img/portfolio/preexisting.png" alt="" />
                     </div>
-                    <div class="portfolio-item-caption-content text-center text-white"><br><h3>Video Marketing</h3></div>
+                    <div class="portfolio-item-caption-content text-center text-white text-uppercase font-weight-light"><br><h5>Video Marketing</h5></div>
                 </div>
         </section>
         <!-- Skills Section-->
         <section class="page-section text-dark mb-0" id="skills">
             <div class="container">
                 <!-- Skills Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase">Technical Skills</h2>
+                <h2 class="page-section-heading text-center text-secondary text-uppercase">Technical Skills</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-custom-line-primary">
+                <div class="divider-custom divider-custom-line-primary mt-1">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-laptop-code"></i></div>
                     <div class="divider-custom-line"></div>
@@ -325,7 +321,7 @@
                 <!-- Contact Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-light mb-0">Contact Me</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
+                <div class="divider-custom divider-light mt-1">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-comments"></i></div>
                     <div class="divider-custom-line"></div>
