@@ -365,7 +365,8 @@ h1, h2 {
   font-family: 'Bebas Neue', cursive;
   font-weight: 700;
   line-height: 1.2;
-  letter-spacing: 0.1em;
+  /* letter-spacing: 0.1em; */
+  letter-spacing: 0.08em;
 }
 
 h3, h4, h5, h6 {
@@ -10058,7 +10059,8 @@ h3 {
 .page-section .page-section-heading {
   font-size: 3rem;
   line-height: 3rem;
-  letter-spacing: 0.1em;
+  /* letter-spacing: 0.1em; */
+  letter-spacing: 0.08em;
 }
 @media (min-width: 992px) {
   .page-section .page-section-heading {
@@ -10323,23 +10325,10 @@ h3 {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  /* background-color: #1d3557; */
-  /* background-color: whitesmoke; */
-  background-color: #ffd369;
 }
 .portfolio-img:hover {
-  /* background-color: #1d3557; */
-  background-color: whitesmoke;
+  background-color: #ffd369;
 }
-
-/* @media (min-width: 768px) {
-  .portfolio .portfolio-item .portfolio-item-caption:hover {
-    opacity: 1;
-  }
-  .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-    font-size: 1.5rem;
-  }
-} */
 
 @media(hover: hover) and (pointer: fine) {
   .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -10348,9 +10337,9 @@ h3 {
   .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
     font-size: 1.5rem;
   }
-  .portfolio-mobile-caption {
+  /* .portfolio-mobile-caption {
     display: none;
-  }
+  } */
 }
 
 .portfolio-modal .portfolio-modal-title {
@@ -10430,6 +10419,7 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1a2b45;
+  line-height: 1;
 }
 
 .map-container{
