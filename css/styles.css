@@ -10293,6 +10293,10 @@ h3 {
   .masthead-avatar {
     width: 15rem;
   }
+  .table-mobile {
+    font-size: smaller;
+    line-height: 1.25;
+  }
 }
 
 @media (min-width: 992px) {
