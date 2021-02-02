@@ -10334,13 +10334,13 @@ h3 {
 } */
 
 .portfolio-img:hover {
-  background-color: #ffd369;
+  background-color: #ffd369 !important;
 }
 .portfolio-item:hover video {
-  background-color: #ffd369;
+  background-color: #ffd369 !important;
 }
 .portfolio-item:hover .portfolio-caption {
-  color: #ffd369;
+  color: #ffd369 !important;
 }
 
 
