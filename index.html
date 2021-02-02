@@ -11,8 +11,14 @@
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
-        <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" /> -->
-        <!-- <link href="https://fonts.googleapis.com/css?family=Futura:400,700" rel="stylesheet" type="text/css" /> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: ['Bebas Neue', 'Assistant', 'Lato']
+                }
+            });
+        </script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600&display=swap" rel="stylesheet">
@@ -68,14 +74,13 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="col-md-auto col-lg-auto mb-5">
-                    <!-- <p class="lead text-center text-primary">I am a data analyst with a background in marketing, communications, and project management. I love solving complex problems, collaborating with multidisciplinary teams, and condensing complicated information into easy-to-understand narratives for audiences of all types. I currently work as an independent consultant for private companies, nonprofit organizations, and legal teams.</p> -->
                     <p class="lead text-center text-secondary" style="font-weight: 400;">I am a data analyst with a background in marketing, communications, and project management. I love solving complex problems, collaborating with multidisciplinary teams, and condensing complicated information into easy-to-understand narratives for audiences of all types.</p>
                 </div>
                 <!-- About Social Icons-->
                 <div class="text-center mt-4">
-                    <a class="btn btn-outline-secondary btn-social mx-1" href="https://www.linkedin.com/in/ewetzel/"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-secondary btn-social mx-1" href="https://github.com/sonder74"><i class="fab fa-fw fa-github"></i></a>
-                    <a class="btn btn-outline-secondary btn-social mx-1" href="https://public.tableau.com/profile/eric.wetzel#!/"><i class="fas fa-chart-bar"></i></a>
+                    <a class="btn btn-outline-secondary btn-social tooltip-secondary mx-1" data-toggle="tooltip" data-placement="top" title="LinkedIn" href="https://www.linkedin.com/in/ewetzel/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mx-1" data-toggle="tooltip" data-placement="top" title="GitHub" href="https://github.com/sonder74"><i class="fab fa-fw fa-github"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mx-1" data-toggle="tooltip" data-placement="top" title="Tableau" href="https://public.tableau.com/profile/eric.wetzel#!/"><i class="fas fa-chart-bar"></i></a>
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
@@ -120,7 +125,7 @@
                 <!-- Portfolio Item 3-->
                 <div class="col-md-auto col-lg-auto mb-5">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                        <img class="img-fluid portfolio-img p-3 bg-white rounded" src="assets/img/portfolio/sql_2.png">
+                        <img class="img-fluid p-3 bg-white rounded" src="assets/img/portfolio/sql_2.png">
                         <div class="portfolio-caption text-center text-uppercase font-weight-light"><br><h5>SQL</h5></div>
                     </div>
                 </div>
@@ -145,7 +150,7 @@
                 <!-- Portfolio Item 6-->
                 <div class="col-md-auto col-lg-auto mb-5">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                        <img class="img-fluid portfolio-img p-3 bg-white rounded" src="assets/img/portfolio/preexisting.png">
+                        <img class="img-fluid p-3 bg-white rounded" src="assets/img/portfolio/preexisting.png">
                         <div class="portfolio-caption text-center text-uppercase font-weight-light"><br><h5>Video Marketing</h5></div>
                     </div>
                 </div>
@@ -324,10 +329,10 @@
                             <div class="text-light text-center" style="padding-bottom: 30px;">
                                 <h5 class="mb-3">Eric Wetzel<br>8407 Appalachian Drive<br>Austin, Texas 78759</h5>
                                 <!--Contact social icons-->
-                                <a class="btn btn-outline-light btn-social mx-1" href="mailto:ewetzel@gmail.com"><i class="far fa-envelope"></i></a>
-                                <a class="btn btn-outline-light btn-social mx-1" href="tel:5127516182"><i class="fas fa-phone-alt"></i></a>
-                                <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/ewetzel/"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                                <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/sonder74"><i class="fab fa-fw fa-github"></i></a>
+                                <a class="btn btn-outline-light btn-social mx-1" href="mailto:ewetzel@gmail.com" data-toggle="tooltip" data-placement="top" title="Email"><i class="far fa-envelope"></i></a>
+                                <span class="tooltip-light"><a class="btn btn-outline-light btn-social mx-1" href="tel:5127516182" data-container="tooltip-light" data-toggle="tooltip" data-placement="bottom" title="Phone"><i class="fas fa-phone-alt"></i></a></span>
+                                <span class="tooltip-light"><a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/ewetzel/" data-container="tooltip-light" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"><i class="fab fa-fw fa-linkedin-in"></i></a></span>
+                                <span class="tooltip-light"><a class="btn btn-outline-light btn-social mx-1" href="https://github.com/sonder74" data-container="tooltip-light" data-toggle="tooltip" data-placement="bottom" title="GitHub"><i class="fab fa-fw fa-github"></i></a></span>
                             </div>
                             <div class="text-center google-maps">
                                 <iframe class="img-fluid p-3 bg-white rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110141.2426114819!2d-97.79683636626827!3d30.381804640768745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cbb62b76f4c3%3A0x87064a07472c9757!2sWetzel%20%26%20Company!5e0!3m2!1sen!2sus!4v1605558424556!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>

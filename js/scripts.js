@@ -64,6 +64,11 @@
         $(this).removeClass("floating-label-form-group-with-focus");
       });
     });
+
+    // Enable tooltips
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
   
   })(jQuery); // End of use strict
   
