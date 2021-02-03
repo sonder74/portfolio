@@ -2728,7 +2728,7 @@ fieldset:disabled a.btn {
   border-color: #1d3557;
 }
 .btn-outline-primary:hover {
-  color: #fff;
+  color: #eeeeee;
   background-color: #1d3557;
   border-color: #1d3557;
 }
@@ -4359,9 +4359,11 @@ input[type=button].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #eeeeee;
   background-clip: border-box;
-  border: 0.125rem solid white;
+  /* border: 0.125rem solid white; */
+  border: 0.125rem solid #eeeeee;
   border-radius: 0.5rem;
 }
 .card > hr {
@@ -4567,7 +4569,9 @@ input[type=button].btn-block {
 }
 .accordion > .card {
   overflow: hidden;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #eeeeee;
+
 }
 .accordion > .card:not(:last-of-type) {
   border-bottom: 0;
@@ -5631,15 +5635,14 @@ a.close.disabled {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.875rem;
+  font-size: 0.78rem;
   word-wrap: break-word;
-  opacity: 1;
+  /* opacity: 1; */
 }
 .tooltip.show {
-  /* opacity: 0.9; */
   opacity: 1;
 }
-.tooltip .arrow {
+/* .tooltip .arrow {
   position: absolute;
   display: block;
   width: 0.8rem;
@@ -5650,50 +5653,53 @@ a.close.disabled {
   content: "";
   border-color: transparent;
   border-style: solid;
-}
+} */
 
 .bs-tooltip-top, .bs-tooltip-auto[x-placement^=top] {
   padding: 0.4rem 0;
 }
-.bs-tooltip-top .arrow, .bs-tooltip-auto[x-placement^=top] .arrow {
+/* .bs-tooltip-top .arrow, .bs-tooltip-auto[x-placement^=top] .arrow {
   bottom: 0;
-}
-.bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^=top] .arrow::before {
+} */
+/* .bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^=top] .arrow::before {
   top: 0;
   border-width: 0.4rem 0.4rem 0;
   border-top-color: #1a2b45;
-}
+  opacity: .9;
+} */
 
 .bs-tooltip-right, .bs-tooltip-auto[x-placement^=right] {
   padding: 0 0.4rem;
 }
-.bs-tooltip-right .arrow, .bs-tooltip-auto[x-placement^=right] .arrow {
+/* .bs-tooltip-right .arrow, .bs-tooltip-auto[x-placement^=right] .arrow {
   left: 0;
   width: 0.4rem;
   height: 0.8rem;
-}
-.bs-tooltip-right .arrow::before, .bs-tooltip-auto[x-placement^=right] .arrow::before {
+} */
+/* .bs-tooltip-right .arrow::before, .bs-tooltip-auto[x-placement^=right] .arrow::before {
   right: 0;
   border-width: 0.4rem 0.4rem 0.4rem 0;
   border-right-color: #1a2b45;
-}
+  opacity: .9;
+} */
 
 .bs-tooltip-bottom, .bs-tooltip-auto[x-placement^=bottom] {
   padding: 0.4rem 0;
 }
-.bs-tooltip-bottom .arrow, .bs-tooltip-auto[x-placement^=bottom] .arrow {
+/* .bs-tooltip-bottom .arrow, .bs-tooltip-auto[x-placement^=bottom] .arrow {
   top: 0;
 }
 .bs-tooltip-bottom .arrow::before, .bs-tooltip-auto[x-placement^=bottom] .arrow::before {
   bottom: 0;
   border-width: 0 0.4rem 0.4rem;
   border-bottom-color: #1a2b45;
-}
+  opacity: .9;
+} */
 
 .bs-tooltip-left, .bs-tooltip-auto[x-placement^=left] {
   padding: 0 0.4rem;
 }
-.bs-tooltip-left .arrow, .bs-tooltip-auto[x-placement^=left] .arrow {
+/* .bs-tooltip-left .arrow, .bs-tooltip-auto[x-placement^=left] .arrow {
   right: 0;
   width: 0.4rem;
   height: 0.8rem;
@@ -5702,15 +5708,20 @@ a.close.disabled {
   left: 0;
   border-width: 0.4rem 0 0.4rem 0.4rem;
   border-left-color: #1a2b45;
-}
+  opacity: .9;
+} */
 
 .tooltip-inner {
   max-width: 200px;
   padding: 0.25rem 0.5rem;
-  color: #fff;
+  color: #1a2b45;
+  /* border: solid 1px #1a2b45; */
+  border: solid .1rem #1a2b45;
+  /* border-color: #1a2b45; */
   text-align: center;
-  background-color: #1a2b45;
+  background-color: #eeeeee;
   border-radius: 0.5rem;
+  opacity: 1;
 }
 
 .popover {
@@ -6132,6 +6143,10 @@ a.close.disabled {
 
 .bg-primary {
   background-color: #eeeeee !important;
+}
+
+.bg-red {
+  background-color: red !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6610,9 +6625,10 @@ button.bg-dark:focus {
   position: relative;
   padding-bottom: 75%; // This is the aspect ratio
   height: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .google-maps iframe {
+  /* position: absolute; */
   position: absolute;
   top: 0;
   left: 0;
@@ -10295,6 +10311,9 @@ h3 {
 .masthead-avatar {
   width: 18rem;
 }
+.card-header-mobile {
+  display: none;
+}
 
 
 @media (max-width: 575.98px) {
@@ -10311,7 +10330,6 @@ h3 {
   .masthead-subheading-mobile {
     font-size: 1.1rem;
     display: inline-block;
-    /* padding-top: 1rem; */
   }
   .masthead-heading {
     display: none;
@@ -10328,6 +10346,15 @@ h3 {
   .table-mobile {
     font-size: smaller;
     line-height: 1.25;
+  }
+  .tooltip {
+    display: none;
+  }
+  .card-header-desktop {
+    display: none;
+  }
+  .card-header-mobile {
+    display: inline-block;
   }
 }
 
