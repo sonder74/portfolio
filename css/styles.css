@@ -10356,6 +10356,10 @@ h3 {
   .card-header-mobile {
     display: inline-block;
   }
+  .about-text-mobile {
+    line-height: 1.25;
+    margin-bottom: 0 !important;
+  }
 }
 
 @media (min-width: 992px) {
