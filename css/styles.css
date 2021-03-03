@@ -10377,6 +10377,11 @@ h3 {
   display: none;
 }
 
+@media (min-width: 575.98px) {
+  .masthead-avatar-mobile {
+    display: none;
+  }
+}
 
 @media (max-width: 575.98px) {
   .page-section {
@@ -10400,7 +10405,7 @@ h3 {
     display:none;
   }
   .masthead-avatar-mobile {
-    width: 15rem;
+    width: 16rem;
     display: block;
   }
   .masthead-heading-mobile {
@@ -10414,9 +10419,6 @@ h3 {
   }
   .page-section-heading-mobile {
     display: block;
-  }
-  .masthead-avatar {
-    width: 15rem;
   }
   .table-mobile {
     font-size: smaller;
