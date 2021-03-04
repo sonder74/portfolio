@@ -4366,7 +4366,7 @@ input[type=button].btn-block {
   /* background-color: #fff; */
   background-color: #eeeeee;
   background-clip: border-box;
-  border: 0.05rem solid #9096a0;
+  border: 0.05rem solid #a0a7b3;
   border-radius: 0.5rem;
 }
 .card > hr {
@@ -4429,13 +4429,14 @@ input[type=button].btn-block {
   background-color: #1e252f; 
 }
 
-/* .card-header:hover {
-  background-color: #131922;
-} */
-
 .card-header:hover {
   color: #1e252f !important;
-  background-color: #eeeeee;
+  background-color: #eeeeee !important;
+}
+
+.card-header:not(.collapsed) {
+  color: #1e252f !important;
+  background-color: #eeeeee !important;
 }
 
 .card-header:first-child {
@@ -6163,24 +6164,12 @@ button.bg-primary:focus {
   background-color: #1e252f !important;
 }
 
-/* .bg-secondary {
-  background-color: #1e252f !important;
-} */
-
 .bg-secondary {
   background-color: #1e252f !important;
 }
 
-/* .bg-light-secondary {
-  background-color: #acb2bd !important;
-} */
-
 .bg-light-secondary {
-  background-color: #9096a0 !important;
-}
-
-.bg-gray {
-  background-color: rgb(187, 187, 187) !important;
+  background-color: #a0a7b3 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -9967,7 +9956,7 @@ a.text-primary:hover, a.text-primary:focus {
 } */
 
 .text-light-secondary {
-  color: #9096a0 !important;
+  color: #a0a7b3 !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -10302,13 +10291,13 @@ h3 {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #9096a0;
+  color: #a0a7b3;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #9096a0;
+  color: #a0a7b3;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10381,6 +10370,9 @@ h3 {
   .masthead-avatar-mobile {
     display: none;
   }
+  .about-text-mobile {
+    display: none;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -10434,8 +10426,16 @@ h3 {
     display: inline-block;
   }
   .about-text-mobile {
-    line-height: 1.25 !important;
+    font-size: smaller !important;
+    line-height: 1.1 !important;
     margin-bottom: 0 !important;
+  }
+  .about-text {
+    display: none;
+  }
+  .card-header.collapsed {
+    color: #eeeeee !important;
+    background-color: #1e252f !important;
   }
 }
 
