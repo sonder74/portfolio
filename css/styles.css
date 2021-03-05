@@ -65,7 +65,7 @@
 
 @font-face {  
   font-family: "Lato";  
-  font-weight: 400;  
+  font-weight: 400;
   font-style: normal;  
   font-display: swap; 
   unicode-range: U+000-5FF; 
@@ -6665,12 +6665,10 @@ button.bg-dark:focus {
 
 .google-maps {
   position: relative;
-  padding-bottom: 75%; // This is the aspect ratio
+  padding-bottom: 75%;
   height: 0;
-  /* overflow: hidden; */
 }
 .google-maps iframe {
-  /* position: absolute; */
   position: absolute;
   top: 0;
   left: 0;
@@ -10375,6 +10373,9 @@ h3 {
   .masthead-avatar-mobile {
     display: none;
   }
+  .masthead-subheading-mobile {
+    display: none;
+  }
   .about-text-mobile {
     display: none;
   }
@@ -10387,12 +10388,10 @@ h3 {
   }
   .google-maps {
     position: relative;
-    padding-bottom: 75%; // This is the aspect ratio
+    padding-bottom: 75%;
     height: 0;
-    /* overflow: hidden; */
   }
   .google-maps iframe {
-    /* position: absolute; */
     position: absolute;
     top: 0;
     left: 0;
@@ -10415,6 +10414,9 @@ h3 {
   .masthead-subheading-mobile {
     font-size: 1rem;
     display: inline-block;
+  }
+  .masthead-subheading-tablet {
+    display: none;
   }
   .masthead-heading {
     display: none;
@@ -10462,6 +10464,25 @@ h3 {
   .card-header.collapsed {
     color: #eeeeee !important;
     background-color: #1e252f !important;
+  }
+}
+
+@media (min-width: 575.99px) and (max-width: 768.99px) {
+  .masthead-subheading-tablet {
+    font-size: 1rem;
+    display: inline-block;
+  }
+  .masthead-subheading {
+    display: none;
+  }
+  .masthead-subheading-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .masthead-subheading-tablet {
+    display: none;
   }
 }
 
